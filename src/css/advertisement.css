@@ -1,5 +1,43 @@
-/* .container {
-    padding: 0 20px;
-    max-width: 375px;
+.contact-us-container {
+  padding: 60px 28px;
+  border-radius: 30px;
+  background-color: #0c0c0c;
 }
- */
+
+.advertisement-description {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+.advertisement-description-text-item {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.advertisement-link-btn {
+  display: inline-block;
+  border-radius: 16px;
+}
+
+.advertisement-btn {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  max-width: 160px;
+  min-height: 48px;
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  padding-right: 44px;
+  padding-left: 43px;
+}
+
+.advertisement-link-btn:hover .advertisement-btn,
+.advertisement-link-btn:focus .advertisement-btn {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
