@@ -2,7 +2,7 @@
 
 
 body{
-  font-family: "Gilroy", Arial, sans-serif;
+  font-family: "Gilroy" sans-serif;
   background-color: #fff;
   color: #434455;
 }
@@ -61,4 +61,25 @@ button{
   background: transparent;
   line-height: 0;
   cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  min-width: 320px;
+  max-width: 375px;
+  padding: 0 20px;
+}
+
+@media  screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+    padding: 0 32px;
+  }
+}
+
+@media  screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
 }
