@@ -1,7 +1,7 @@
 /* Reset styles */
 
 
-body{
+body {
   font-family: "Gilroy" sans-serif;
   background-color: #fff;
   color: #434455;
@@ -9,8 +9,9 @@ body{
 
 main {
   color: #0c0c0c;
-accent-color: #3350e9;
-background-color:#fbfbfb; ;
+  accent-color: #3350e9;
+  background-color: #fbfbfb;
+  ;
 }
 
 
@@ -62,7 +63,7 @@ img {
   clip-path: inset(100%);
 }
 
-button{
+button {
   padding: 0;
   border: none;
   background: transparent;
@@ -77,14 +78,14 @@ button{
   padding: 0 20px;
 }
 
-@media  screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
     padding: 0 32px;
   }
 }
 
-@media  screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .container {
     max-width: 1280px;
     padding: 0 65px;

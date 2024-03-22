@@ -1,52 +1,59 @@
 <!-- Section Contact-US -->
-<section class="section-contact section">
-    <div class="contact-container container">
-        <h2 class="section-contact-title">Contact Us</h2>
-        <div class="contact">
-            <p class="section-contact-text">Please use the form below to contact us. Enter your name, email, phone, and
+<section class="section-contactus" id="contactus">
+    <div class="contactus-container container">
+        <h2 class="section-contactus-title">Contact Us</h2>
+        <div class="contactus">
+            <p class="section-contactus-text">Please use the form below to contact us. Enter your name, email, phone,
+                and
                 message and we'll get back to you shortly.</p>
-            <form class="section-contact-form">
 
-                <div class="section-contact-wrapper">
-                    <label class="section-contact-label" for="user-name">Name
-                        <input class="contact-input" id="user-name" name="user-name" type="text" title="Oleksii"
+
+            <form class="section-contactus-form">
+
+                <div class="section-contactus-wrapper">
+                    <label class="section-contactus-label">
+                        <input class="contactus-input" name="user-name" type="text" title="victoria" placeholder="Name"
                             pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐ']+" required>
                     </label>
                 </div>
-                <div class="section-contact-wrapper">
-                    <label class="section-contact-label" for="user-email">Email
 
-                        <input class="contact-input" id="user-email" name="user-email" type="email" required>
-                    </label>
-                </div>
-                <div class="section-contact-wrapper">
-                    <label class="section-contact-label" for="user-phone">Phone
-                        <input class="contact-input" id="user-phone" name="user-phone" type="tel" required>
 
+                <div class="section-contactus-wrapper">
+                    <label class="section-contactus-label">
+                        <input class="contactus-input" name="user-email" type="email" title="victoria@gmail.com"
+                            placeholder="Email" required>
                     </label>
                 </div>
 
-                <div class="section-contact-user-comment">
-                    <label class="section-contact-label" for="user-comment">Comment
-                        <textarea class="section-contact-message" id="user-comment" name="user-comment"
-                            placeholder="Text input">
-            </textarea>
+
+                <div class="section-contactus-wrapper">
+                    <label class="section-contactus-label">
+                        <input class="contactus-input" name="user-phone" type="tel" placeholder="+380" required>
+
                     </label>
                 </div>
-                <button class="section-contact-btn" type="submit">Send</button>
+
+                <div class="section-contactus-user-comment">
+                    <label class="section-contactus-message-label">
+                        <textarea class="section-contactus-message" name="user-comment" placeholder="Comment">
+                        </textarea>
+                    </label>
+                </div>
+                <button class="section-contactus-btn" type="submit">Send</button>
             </form>
         </div>
 
 
-        <div class="section-contact-img">
+        <div class="section-contactus-img">
             <picture>
                 <source media="(min-width:1158px)"
-                    srcset="./images/portfolio/banking-app-desktop.jpg 1x, ./images/portfolio/banking-app-desktop@2x.jpg 2x ">
+                    srcset="./img/section-contact/section-contact-desktop.jpg 1x, ./img/section-contact/section-contact-desktop@2x.jpg 2x ">
                 <source media="(min-width:768px)"
-                    srcset="./images/portfolio/banking-app-tablet.jpg 1x, ./images/portfolio/banking-app-tablet@2x.jpg 2x ">
+                    srcset="./img/section-contact/section-contact-tablet.jpg 1x, ./img/section-contact/section-contact-tablet@2x.jpg 2x ">
                 <source media="(max-width:767px)"
-                    srcset="./images/portfolio/banking-app-mobile.jpg 1x, ./images/portfolio/banking-app-mobile@2x.jpg 2x ">
-                <img class="portfolio-list-img" src="./images/portfolio/banking-app-mobile" alt="Menu banking-app">
+                    srcset="./img/section-contact/section-contact-mobile.jpg 1x, ./img/section-contact/section-contact-mobile@2x.jpg 2x ">
+                <img class="portfolio-list-img" src="./img/section-contact/section-contact-mobile.jpg"
+                    alt="the diving watch is on the stone">
             </picture>
         </div>
 
