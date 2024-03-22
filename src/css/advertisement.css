@@ -1,8 +1,20 @@
-.contact-us-container {
+.advertisement-container {
   padding: 60px 28px;
   border-radius: 30px;
   background-color: #0c0c0c;
+  background-image: url(/img/advertisement-img/advertisement-bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+/* media for retina */
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .advertisement-container {
+    background-image: url(/img/advertisement-img/advertisement-bg-mobile@2x.png);
+  }
+}
+/* /media for retina */
 
 .advertisement-description {
   font-weight: 600;
@@ -19,9 +31,6 @@
 .advertisement-link-btn {
   display: inline-block;
   border-radius: 16px;
-}
-
-.advertisement-btn {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
@@ -32,12 +41,12 @@
   background-color: transparent;
   border: 1px solid rgba(251, 251, 251, 0.15);
   border-radius: 16px;
-  padding-right: 44px;
-  padding-left: 43px;
+  padding: 15px 43px 15px 44px;
+  transition: background-color 200ms, color 200ms;
 }
 
-.advertisement-link-btn:hover .advertisement-btn,
-.advertisement-link-btn:focus .advertisement-btn {
+.advertisement-link-btn:hover,
+.advertisement-link-btn:focus {
   background-color: #fbfbfb;
   color: #0c0c0c;
 }
