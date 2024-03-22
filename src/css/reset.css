@@ -1,4 +1,12 @@
 /* Reset styles */
+
+
+body{
+  font-family: "Gilroy", Arial, sans-serif;
+  background-color: #fff;
+  color: #434455;
+}
+
 h1,
 h2,
 h3,
@@ -32,4 +40,25 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+}
+
+button{
+  padding: 0;
+  border: none;
+  background: transparent;
+  line-height: 0;
+  cursor: pointer;
 }
