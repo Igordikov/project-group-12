@@ -1,8 +1,9 @@
 <section class="section">
-  <div class="container">
+  <div class="container hero-section">
     <div class="hero-title">
       <h1 class="hero-title-name">
-        Welcome to our collection of premium watches
+        Welcome to our <span class="hero-title-name-blue">collection</span> of
+        premium watches
       </h1>
       <p class="hero-title-about">
         Our watches are not just timepieces, but also an expression of your
@@ -11,32 +12,57 @@
       </p>
     </div>
     <div class="hero-reviews-scroll">
-      <ul class="hero-reviews-photo">
-        <li class="hero-photo-img">
-          <picture>
-            <source srcset="#" />
-            <img src="#" alt="Jesica Swon" width="44" height="44" />
-          </picture>
-        </li>
-        <li class="hero-photo-img">
-          <picture>
-            <source srcset="#" />
-            <img src="#" alt="John Wax" width="44" height="44" />
-          </picture>
-        </li>
-        <li class="hero-photo-img">
-          <picture>
-            <source srcset="#" />
-            <img src="#" alt="Amelia Clark" width="44" height="44" />
-          </picture>
-        </li>
-      </ul>
-      <a class="hero-scroll-down" href="#">Scroll down</a>
+      <picture class="hero-reviews-photo">
+        <source
+          srcset="
+            ../img/hero-img/deskt-reviews-hero.png    1x,
+            ../img/hero-img/x2-deskt-reviews-hero.png 2x
+          "
+          media="(min-width: 1158px)"
+        />
+        <source
+          srcset="
+            ../img/hero-img/tablet-reviews-hero.png    1x,
+            ../img/hero-img/x2-tablet-reviews-hero.png 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ../img/hero-img/mob-reviews-hero.png    1x,
+            ../img/hero-img/x2-mob-reviews-hero.png 2x
+          "
+          media="(max-width: 767px)"
+        />
+        <img src="../img/hero-img/mob-reviews-hero.png" alt="reviews photo" />
+      </picture>
+      <a class="hero-scroll-down" href="#footer">Scroll down</a>
     </div>
     <div class="hero-title-image">
-      <picture>
-        <source srcset="#" />
-        <img src="#" alt="watch" width="335" height="366" />
+      <picture class="hero-title-image-jpg">
+        <source
+          srcset="
+            ../img/hero-img/deskt-hero-watch.jpg    1x,
+            ../img/hero-img/2x-deskt-hero-watch.jpg 2x
+          "
+          media="(min-width: 1158px)"
+        />
+        <source
+          srcset="
+            ../img/hero-img/tablet-hero-watch.jpg    1x,
+            ../img/hero-img/x2-tablet-hero-watch.jpg 2x
+          "
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="
+            ../img/hero-img/mob-hero-watch.jpg    1x,
+            ../img/hero-img/2x-mob-hero-watch.jpg 2x
+          "
+          media="(max-width: 767px)"
+        />
+
+        <img src="../img/hero-img/mob-hero-watch.jpg" alt="watch" />
       </picture>
     </div>
   </div>
