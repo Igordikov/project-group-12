@@ -7,6 +7,7 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    max-width: 335px;
 }
 
 .section-contactus-title {
@@ -75,11 +76,15 @@
     outline: transparent;
 }
 
-.section-contactus-user-comment {}
+.section-contactus-user-comment {
+    position: relative;
+    width: 279px;
+}
 
 .section-contactus-message-label {
     margin-bottom: 28px;
     display: block;
+    position: relative;
 
 }
 
@@ -94,13 +99,21 @@
     resize: none;
 }
 
-
-.section-contactus-message::placeholder {
+.placeholder {
+    position: absolute;
+    top: 12px;
+    left: 14px;
+    pointer-events: none;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
     color: #0c0c0c;
     text-align: left;
+}
+
+.section-contactus-message:focus+.placeholder {
+    display: none;
+    /* При фокусі на полі, плейсхолдер ховається */
 }
 
 .section-contactus-btn {
