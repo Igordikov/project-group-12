@@ -72,6 +72,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding: 240px 64px 0 64px;
   margin-bottom: auto;
 }
@@ -89,6 +90,7 @@
 .header-social-item {
   display: flex;
   justify-content: center;
+ 
   gap: 10px;
   padding-bottom: 40px;
 }
