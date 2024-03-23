@@ -7,7 +7,7 @@
   padding: 60px 28px;
   border-radius: 30px;
   background-color: #0c0c0c;
-  background-image: url(../img/advertisement-img/advertisement-bg-mobile.png);
+  background-image: url(/img/advertisement-img/advertisement-bg-mobile.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -16,7 +16,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .advertisement-container {
-    background-image: url(../img/advertisement-img/advertisement-bg-mobile@2x.png);
+    background-image: url(/img/advertisement-img/advertisement-bg-mobile@2x.png);
   }
 }
 /* /media for retina */
