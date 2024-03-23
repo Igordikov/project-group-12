@@ -1,3 +1,10 @@
+
+
+.header-section {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+
 .header-mobile-wrap {
   display: flex;
   align-items: center;

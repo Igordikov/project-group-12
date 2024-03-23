@@ -1,5 +1,9 @@
-footer {
-  font-family: 'Gilroy', sans-serif;
+
+
+
+.footer-container {
+ padding-top: 60px;
+ padding-bottom: 20px;
 }
 
 .footer-wrap {
