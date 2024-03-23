@@ -7,7 +7,6 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
 }
 
 .section-contactus-title {
@@ -20,15 +19,16 @@
 }
 
 .contactus {
-    min-width: 100%;
+    max-width: 335px;
     background-color: #f3f3f3;
     border-radius: 30px;
     padding: 48px 28px;
     height: 100%;
+    margin-bottom: 20px;
 }
 
 .section-contactus-text {
-    width: 100%;
+    max-width: 279px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
@@ -38,9 +38,7 @@
 }
 
 .section-contactus-form {
-    /* max-width: 279px;
-    margin-bottom: 20px; */
-
+    max-width: 279px;
 }
 
 .section-contactus-wrapper {}
@@ -82,6 +80,7 @@
 .section-contactus-message-label {
     margin-bottom: 28px;
     display: block;
+
 }
 
 .section-contactus-message {
@@ -95,12 +94,8 @@
     resize: none;
 }
 
-.no-scroll {
-    overflow: hidden;
-}
 
 .section-contactus-message::placeholder {
-    font-family: "Gilroy", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.29;
@@ -109,12 +104,12 @@
 }
 
 .section-contactus-btn {
+    border: none;
     border-radius: 16px;
     padding: 12px 50px;
     max-width: 134px;
     height: 42px;
     background-color: #3350e9;
-    font-family: "Gilroy", sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
