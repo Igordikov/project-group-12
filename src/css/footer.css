@@ -2,10 +2,14 @@ footer {
   font-family: 'Gilroy', sans-serif;
 }
 
-.footer-container {
-  padding: 40px 28px 28px 28px;
-  background-color: #0c0c0c;
+.footer-wrap {
+  border-radius: 30px;
+padding: 40px 28px 28px 28px;
+max-width: 335px;
+background-color: #0c0c0c;
 }
+
+
 
 .footer-logo {
   display: block;
