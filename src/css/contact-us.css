@@ -2,11 +2,12 @@
     margin-bottom: 60px;
 }
 
-.contactus-container .container {
+.contactus-container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .section-contactus-title {
@@ -129,7 +130,4 @@
     background-color: #1f3cd4;
 }
 
-.section-contactus-img {
-
-    padding-top: 20px;
-}
+.section-contactus-img {}
