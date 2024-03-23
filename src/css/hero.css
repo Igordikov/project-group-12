@@ -1,0 +1,58 @@
+.hero-section {
+  padding-top: 60px;
+ 
+}
+.hero-title {
+  max-width: 335px;
+  margin-bottom: 28px;
+}
+.hero-title-name {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+.hero-title-name-blue {
+  color: #3350e9;
+}
+.hero-title-about {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+.hero-reviews-scroll {
+  display: flex;
+  justify-content: space-between;
+  max-width: 335px;
+  margin-bottom: 28px;
+}
+.hero-scroll-down {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+  align-items: end;
+}
+.hero-title-image {
+  border-radius: 30px;
+  position: relative;
+}
+.hero-title-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2));
+  z-index: 999999;
+  border-radius: 30px;
+}
