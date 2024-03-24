@@ -1,3 +1,10 @@
+
+
+.header-section {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+
 .header-mobile-wrap {
   display: flex;
   align-items: center;
@@ -65,6 +72,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   padding: 240px 64px 0 64px;
   margin-bottom: auto;
 }
@@ -82,6 +90,7 @@
 .header-social-item {
   display: flex;
   justify-content: center;
+ 
   gap: 10px;
   padding-bottom: 40px;
 }
