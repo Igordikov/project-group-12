@@ -169,7 +169,7 @@
     padding: 15px;
   }
   .footer-contact-number {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.29;
   }
   .footer-tittle {
@@ -212,8 +212,11 @@
   .footer-container {
     padding: 100px 0 32px 0;
   }
+  .container.footer {
+    padding: 0 32px;
+  }
   .footer-wrap {
-    max-width: 1150px;
+    max-width: 1216px;
     position: relative;
   }
   .footer-tittle {
