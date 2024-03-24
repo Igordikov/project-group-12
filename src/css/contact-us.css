@@ -124,7 +124,7 @@
     border: none;
     border-radius: 16px;
     padding: 12px 50px;
-    max-width: 134px;
+    min-width: 134px;
     height: 42px;
     background-color: #3350e9;
     font-weight: 500;
@@ -142,9 +142,7 @@
     background-color: #1f3cd4;
 }
 
-.contactus-img {
-    width: 335px;
-}
+
 
 @media only screen and (min-width:768px) {
     .section-contactus {
@@ -205,13 +203,10 @@
 
     .section-contactus-btn {
         padding: 17px 63px;
-        max-width: 160px;
+        min-width: 160px;
         height: 52px;
     }
 
-    .contactus-img {
-        width: 704px;
-    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -242,11 +237,7 @@
 
     .section-contactus-btn {
         padding: 17px 63px;
-        max-width: 160px;
+        min-width: 160px;
         height: 52px;
-    }
-
-    .contactus-img {
-        width: 530px;
     }
 }
