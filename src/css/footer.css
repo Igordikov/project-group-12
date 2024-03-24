@@ -1,22 +1,8 @@
-.footer-container {
-  padding: 40px 28px 28px 28px;
-  
 .footer-wrap {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
   max-width: 335px;
   background-color: #0c0c0c;
-
-.footer-container {
- padding-top: 60px;
- padding-bottom: 20px;
-}
-
-.footer-wrap {
-  border-radius: 30px;
-padding: 40px 28px 28px 28px;
-max-width: 335px;
-background-color: #0c0c0c;
 }
 
 .footer-logo {
@@ -59,13 +45,13 @@ background-color: #0c0c0c;
 .footer-contact-number {
   font-weight: 500;
   font-size: 12px;
-  line-height: 1.29;
+  line-height: 1.33;
 }
 
 .number-border {
   border: 1px solid rgba(251, 251, 251, 0.2);
   border-radius: 16px;
-  padding: 14px 28px;
+  padding: 14px 20px;
   max-width: 171px;
   color: #fbfbfb;
   margin-bottom: 40px;
@@ -171,6 +157,13 @@ background-color: #0c0c0c;
     display: flex;
     justify-content: space-between;
   }
+  .number-border {
+    padding: 15px;
+  }
+  .footer-contact-number {
+    font-size: 13px;
+    line-height: 1.29;
+  }
   .footer-tittle {
     font-size: 28px;
     line-height: 1.14;
@@ -190,7 +183,7 @@ background-color: #0c0c0c;
   .footer-contact-address {
     font-size: 14px;
     line-height: 1.29;
-    max-width: 162px;
+    max-width: 170px;
   }
   .footer-terms-container {
     display: flex;
@@ -214,8 +207,11 @@ background-color: #0c0c0c;
   }
   .footer-tittle {
     position: absolute;
-    top: -40px;
-    left: 25%;
+    top: 40px;
+    left: 306px;
+    right: 306px;
+    max-width: 508px;
+    margin: 0;
   }
   .footer-nav-container {
     margin-top: 126px;
