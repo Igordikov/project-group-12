@@ -1,7 +1,7 @@
 .footer-container {
-  padding-top: 60px;
+  padding: 60px 0 20px 0;
 }
-  
+
 .footer-wrap {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
@@ -154,8 +154,9 @@
 /* ====== MEDIA ====== */
 @media only screen and (min-width: 768px) {
   .footer-container {
-  padding-top: 80px;
-}
+    padding: 80px 0 32px 0;
+  }
+
   .footer-wrap {
     max-width: 704px;
     padding: 40px 40px 40px 28px;
@@ -209,8 +210,8 @@
 
 @media only screen and (min-width: 1280px) {
   .footer-container {
-  padding-top: 100px;
-}
+    padding: 100px 0 32px 0;
+  }
   .footer-wrap {
     max-width: 1150px;
     position: relative;
