@@ -1,11 +1,13 @@
 .footer-container {
   padding: 40px 28px 28px 28px;
+}
   
 .footer-wrap {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
   max-width: 335px;
   background-color: #0c0c0c;
+}
 
 .footer-container {
  padding-top: 60px;
