@@ -1,10 +1,6 @@
 .about-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-    padding-top: 60px;
+     padding-top: 60px;
+    
 }
 
 .about-body {
@@ -12,9 +8,8 @@
     border-radius: 30px;
     max-width: 335px;
     height: 446px;
-
+   margin-bottom: 20px;
     padding: 40px 20px;
-
 }
 
 .about-title {
@@ -68,6 +63,10 @@
    
 @media screen and (min-width: 768px) {
 
+    .about-container {
+        padding-top: 80px;
+    }
+
 .about-title {
     font-size: 48px;
     line-height: 0.92;
@@ -87,8 +86,10 @@
 }
 
 .about-body{
-    width: 704px;
-    height: 512px;
+    
+    margin: 0 auto 40px;
+    max-width: 704px;
+    height:100% ;
 
     padding: 80px 60px;
 }
@@ -105,18 +106,17 @@
 
 @media screen and (min-width: 1280px) {
 
-.about-box {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+
 
 .about-container {
-    flex-direction: row;
+    padding-top: 100px;
+    display: flex;
+    gap: 40px;
 }
 
 .about-body {
-    width: 580px;
-    height: 532px;
+    max-width: 580px;
+    height: 100%px;
 }
 
 .about-btn:hover,
