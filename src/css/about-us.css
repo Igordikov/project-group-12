@@ -64,7 +64,8 @@
 @media screen and (min-width: 768px) {
 
     .about-container {
-        padding-top: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
 .about-title {

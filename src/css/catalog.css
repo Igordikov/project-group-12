@@ -30,6 +30,12 @@
   background: #f3f3f3;
 }
 @media screen and (min-width: 768px) {
+
+  .catalog-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
   
   .title-catalog {
     font-size: 48px;
@@ -48,6 +54,13 @@
   }
 }
 @media screen and (min-width: 1280px) {
+
+  .catalog-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  }
+
   .menu-cards {
     display: flex;
     flex-wrap: wrap;
@@ -85,11 +98,7 @@
     display: none;
   }
 
-  .catalog-section {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-  }
+  
 }
 .mobile-none {
   display: none;
