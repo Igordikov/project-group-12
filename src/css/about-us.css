@@ -9,8 +9,9 @@
 .about-body {
   background-color: #f3f3f3;
   border-radius: 30px;
-  width: 335px;
-  height: 446px;
+
+  max-width: 335px;
+  min-height: 446px;
 
   padding: 40px 20px;
 
