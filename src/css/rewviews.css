@@ -1,6 +1,7 @@
+
+
 .reviews {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
 }
 .reviews-title {
     font-weight: 600;
@@ -41,8 +42,7 @@
 
 @media only screen and (min-width: 768px){
     .reviews{
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 80px;
     }
     .reviews-title{
         margin-bottom: 40px;
@@ -67,8 +67,7 @@
 
 @media only screen and (min-width: 1280px){
     .reviews{
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 100px;
     }
 
     .reviews-list{
