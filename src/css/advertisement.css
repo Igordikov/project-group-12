@@ -1,1 +1,109 @@
 
+
+.advertisement-section {
+  padding-top: 60px;
+ 
+}
+
+.advertisement-container {
+  padding: 60px 28px;
+  border-radius: 30px;
+  background-color: #0c0c0c;
+  background-image: url(/img/advertisement-img/advertisement-bg-mobile.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* media for retina */
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .advertisement-container {
+    background-image: url(/img/advertisement-img/advertisement-bg-mobile@2x.png);
+  }
+}
+/* /media for retina */
+.advertisement-description {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 28px;
+}
+.advertisement-description-text-item {
+  color: rgba(251, 251, 251, 0.5);
+}
+.advertisement-link-btn {
+  display: inline-block;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fbfbfb;
+  min-width: 160px;
+  max-height: 48px;
+  background-color: transparent;
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  padding: 15px 43px 15px 44px;
+  transition: background-color 200ms, color 200ms;
+}
+
+.advertisement-link-btn:hover,
+.advertisement-link-btn:focus {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
+/* media styles for tablets/desktop */
+@media screen and (min-width: 768px) {
+  /* media for tablets */
+  .advertisement-container {
+    padding: 80px 64px;
+    background-image: url(/img/advertisement-img/advertisement-bg-tablet.png);
+  }
+
+  .advertisement-description {
+    font-size: 48px;
+    line-height: 0.92;
+    letter-spacing: -0.02em;
+    margin-bottom: 32px;
+  }
+  /* media for retina tablets */
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .advertisement-container {
+      background-image: url(/img/advertisement-img/advertisement-bg-tablet@2x.png);
+    }
+    /* /media for retina tablets */
+  }
+  /* /media for tablets */
+  /* media for desktop */
+  @media screen and (min-width: 1280px) {
+    .advertisement-container {
+      display: flex;
+      align-items: start;
+      justify-content: space-between;
+      padding: 83px 80px;
+      background-image: url(/img/advertisement-img/advertisement-bg-desktop.png);
+    }
+    /* media for retina desktop */
+    @media (min-device-pixel-ratio: 2),
+      (min-resolution: 192dpi),
+      (min-resolution: 2dppx) {
+        .advertisement-container {
+          background-image: url(/img/advertisement-img/advertisement-bg-desktop@2x.png);
+        }
+
+    }
+    /* /media for retina desktop */
+
+    .advertisement-description {
+      max-width: 690px;
+      margin-bottom: 0;
+    }
+  }
+  /* /media for desktop */
+}
+/* media styles for tablets/desktop */

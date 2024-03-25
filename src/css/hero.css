@@ -1,0 +1,124 @@
+
+
+.hero-section {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.hero-title {
+  max-width: 335px;
+  margin-bottom: 28px;
+}
+.hero-title-name {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 0.95;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 20px;
+}
+.hero-title-name-blue {
+  color: #3350e9;
+}
+
+.hero-title-about {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  color: rgba(12, 12, 12, 0.7);
+}
+.hero-reviews-scroll {
+  display: flex;
+  justify-content: space-between;
+  max-width: 335px;
+  margin-bottom: 28px;
+}
+.hero-scroll-down {
+  display: flex;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #0c0c0c;
+  align-items: end;
+  transition: color 200ms;
+}
+.hero-scroll-down:hover,
+.hero-scroll-down:focus {
+  color: #3350e9;
+}
+.hero-title-image {
+  border-radius: 30px;
+  position: relative;
+}
+.hero-title-image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(rgba(12, 12, 12, 0.2), rgba(12, 12, 12, 0.2));
+  z-index: 999999;
+  border-radius: 30px;
+}
+@media screen and (min-width: 768px) {
+  .hero-section {
+    padding-top: 80px;
+    padding-bottom: 40px;
+   
+  }
+  .hero-title-container {
+    display: flex;
+    margin-bottom: 40px;
+  }
+  .hero-title {
+    max-width: 557px;
+    margin-right: 11px;
+    margin-bottom: 0;
+  }
+  .hero-title-name {
+    font-size: 70px;
+    line-height: 0.85;
+  }
+  .hero-title-about {
+    max-width: 480px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .hero-reviews-scroll {
+    flex-direction: column;
+    align-items: end;
+    margin-bottom: 0;
+  }
+
+  .hero-scroll-down {
+    font-size: 20px;
+    line-height: 1;
+  }
+  .hero-title-image {
+    border-radius: 50px;
+  }
+  .hero-title-image::after {
+    border-radius: 50px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    .hero-section {
+      padding-bottom: 50px;
+    }
+    .hero-title-container {
+      justify-content: space-between;
+    }
+    .hero-title {
+      min-width: 597px;
+      margin-right: 0;
+    }
+    .hero-title-name {
+      font-size: 72px;
+      line-height: 0.87;
+    }
+  }
+}
