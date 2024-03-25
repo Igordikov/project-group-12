@@ -53,18 +53,18 @@
 }
 
 .about-btn {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.29;
-  text-align: center;
-  color: #fbfbfb;
+    display: inline-block;
+    padding: 15px 37px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #fbfbfb;
 
-  border-radius: 16px;
-  background: #3350e9;
-  width: 160px;
-  height: 48px;
-
-  border: none;
+    border-radius: 16px;
+    background: #3350e9;
+    width: 160px;
+    height: 48px;
 }
  
 @media screen and (min-width: 768px) {
