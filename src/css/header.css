@@ -256,4 +256,10 @@
     height: 36px;
     fill: #0c0c0c;
   }
+
+  .header-desktop-social-link:hover,
+  .header-desktop-social-link:focus {
+    border: 1px solid rgba(51, 80, 233, 0.1);
+    fill: #3350e9;
+  }
 }
