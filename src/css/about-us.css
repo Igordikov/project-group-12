@@ -1,5 +1,6 @@
 .about-container {
-     padding-top: 60px;
+     padding-top: 30px;
+     padding-bottom: 30px;
     
 }
 
@@ -64,7 +65,8 @@
 @media screen and (min-width: 768px) {
 
     .about-container {
-        padding-top: 80px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
 .about-title {
@@ -87,7 +89,7 @@
 
 .about-body{
     
-    margin: 0 auto 40px;
+    margin: 0 auto;
     max-width: 704px;
     height:100% ;
 
@@ -109,7 +111,8 @@
 
 
 .about-container {
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     gap: 40px;
 }

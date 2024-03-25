@@ -1,6 +1,6 @@
 .hero-section {
   padding-top: 60px;
- 
+  padding-bottom: 30px;
 }
 .hero-title {
   max-width: 335px;
@@ -65,7 +65,8 @@
 @media screen and (min-width: 768px) {
   .hero-section {
     padding-top: 80px;
-    padding-bottom: 80px;
+    padding-bottom: 40px;
+   
   }
   .hero-title-container {
     display: flex;
@@ -101,21 +102,21 @@
   .hero-title-image::after {
     border-radius: 50px;
   }
-}
 
-@media screen and (min-width: 1158px) {
-  .hero-section {
-    padding-bottom: 100px;
-  }
-  .hero-title-container {
-    justify-content: space-between;
-  }
-  .hero-title {
-    min-width: 597px;
-    margin-right: 0;
-  }
-  .hero-title-name {
-    font-size: 72px;
-    line-height: 0.87;
+  @media screen and (min-width: 1280px) {
+    .hero-section {
+      padding-bottom: 50px;
+    }
+    .hero-title-container {
+      justify-content: space-between;
+    }
+    .hero-title {
+      min-width: 597px;
+      margin-right: 0;
+    }
+    .hero-title-name {
+      font-size: 72px;
+      line-height: 0.87;
+    }
   }
 }

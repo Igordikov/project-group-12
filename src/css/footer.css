@@ -1,7 +1,13 @@
-.footer-container {
-  padding-top: 60px;
+
+
+footer {
+  background-color: #fbfbfb;
 }
-  
+
+.footer-container {
+  padding: 30px 0 20px 0;
+}
+
 .footer-wrap {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
@@ -154,8 +160,9 @@
 /* ====== MEDIA ====== */
 @media only screen and (min-width: 768px) {
   .footer-container {
-  padding-top: 80px;
-}
+    padding: 40px 0 32px 0;
+  }
+
   .footer-wrap {
     max-width: 704px;
     padding: 40px 40px 40px 28px;
@@ -168,7 +175,7 @@
     padding: 15px;
   }
   .footer-contact-number {
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.29;
   }
   .footer-tittle {
@@ -209,10 +216,13 @@
 
 @media only screen and (min-width: 1280px) {
   .footer-container {
-  padding-top: 100px;
-}
+    padding: 50px 0 32px 0;
+  }
+  .container.footer {
+    padding: 0 32px;
+  }
   .footer-wrap {
-    max-width: 1150px;
+    max-width: 1216px;
     position: relative;
   }
   .footer-tittle {
