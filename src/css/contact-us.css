@@ -1,6 +1,7 @@
+
+
 .section-contactus {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 60px;
 }
 
 .contactus-container {
@@ -147,8 +148,7 @@
 
 @media only screen and (min-width:768px) {
     .section-contactus {
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 80px;
     }
 
     .section-contactus-title {
@@ -213,8 +213,7 @@
 
 @media screen and (min-width: 1280px) {
     .section-contactus {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 100px;
     }
 
     .contactus-container {

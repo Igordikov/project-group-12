@@ -1,11 +1,12 @@
 
 
+
 footer {
   background-color: #fbfbfb;
 }
 
 .footer-container {
-  padding: 30px 0 20px 0;
+  padding: 60px 0 20px 0;
 }
 
 .footer-wrap {
@@ -160,7 +161,7 @@ footer {
 /* ====== MEDIA ====== */
 @media only screen and (min-width: 768px) {
   .footer-container {
-    padding: 40px 0 32px 0;
+    padding: 80px 0 32px 0;
   }
 
   .footer-wrap {
@@ -216,7 +217,7 @@ footer {
 
 @media only screen and (min-width: 1280px) {
   .footer-container {
-    padding: 50px 0 32px 0;
+    padding: 100px 0 32px 0;
   }
   .container.footer {
     padding: 0 32px;
