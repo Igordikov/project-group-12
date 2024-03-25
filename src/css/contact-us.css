@@ -1,5 +1,3 @@
-
-
 .section-contactus {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -191,7 +189,7 @@
     }
 
     .section-contactus-message {
-        padding: 16px 354px 54px 16px;
+        padding: 16px 54px;
         height: 90px;
     }
 
@@ -234,7 +232,7 @@
     }
 
     .section-contactus-message {
-        padding: 16px 315px 54px 16px;
+        padding: 16px 54px;
 
     }
 
