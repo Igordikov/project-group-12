@@ -51,6 +51,8 @@
 }
 
 .about-btn {
+    display: inline-block;
+    padding: 15px 37px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -61,8 +63,6 @@
     background: #3350e9;
     width: 160px;
     height: 48px;
-
-    border: none;
 }
    
 @media screen and (min-width: 768px) {
