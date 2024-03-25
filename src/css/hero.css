@@ -64,7 +64,7 @@
 @media screen and (min-width: 768px) {
   .hero-section {
     padding-top: 80px;
-    padding-bottom: 80px;
+   
   }
   .hero-title-container {
     display: flex;
