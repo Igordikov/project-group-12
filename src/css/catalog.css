@@ -55,6 +55,12 @@
   }
 }
 @media screen and (min-width: 1280px) {
+
+  .catalog-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
   .menu-cards {
     display: flex;
     flex-wrap: wrap;
