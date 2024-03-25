@@ -87,7 +87,7 @@
 
 .about-body{
     
-    margin: 0 auto 40px;
+    margin: 0 auto;
     max-width: 704px;
     height:100% ;
 
@@ -109,7 +109,8 @@
 
 
 .about-container {
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     display: flex;
     gap: 40px;
 }

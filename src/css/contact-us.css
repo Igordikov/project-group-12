@@ -211,7 +211,8 @@
 
 @media screen and (min-width: 1280px) {
     .section-contactus {
-        padding-top: 100px;
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 
     .contactus-container {
