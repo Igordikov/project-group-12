@@ -1,5 +1,7 @@
 /* Reset styles */
-
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: "Gilroy", sans-serif;
