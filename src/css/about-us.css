@@ -89,7 +89,7 @@
 }
 
 .about-body{
-  width: 704px;
+  min-width: 704px;
   height: 512px;
 
   padding: 80px 60px;
@@ -119,7 +119,7 @@
 }
 
 .about-body {
-  width: 580px;
+  min-width: 580px;
   height: 532px;
 }
 
